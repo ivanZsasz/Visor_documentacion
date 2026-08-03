@@ -642,7 +642,17 @@ if (createFolderForm) {
 function openCreateModal() {
     editingFolderId = null;
     document.getElementById('modal-title').textContent = 'Nueva Carpeta';
+    createFolderForm.querySelector('button[type="submit"]').textContent = 'Crear Carpeta';
     createFolderForm.reset();
+    createFolderModal.classList.remove('hidden');
+}
+
+function openRenameModal(folderId, currentName) {
+    editingFolderId = folderId;
+    document.getElementById('modal-title').textContent = 'Renombrar Carpeta';
+    createFolderForm.querySelector('button[type="submit"]').textContent = 'Renombrar';
+    createFolderForm.reset();
+    folderNameInput.value = currentName;
     createFolderModal.classList.remove('hidden');
 }
 

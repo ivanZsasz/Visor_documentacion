@@ -365,8 +365,12 @@ body {
     border-radius: 8px;
     font-size: 1rem;
     transition: border-color 0.2s, box-shadow 0.2s;
-    background: var(--bg-app);
-    color: var(--text-main);
+    background: #ffffff;
+    color: #1e293b;
+}
+
+.input-group input::placeholder {
+    color: #9ca3af;
 }
 
 .input-group input:focus {
@@ -1234,6 +1238,11 @@ body[data-theme="dark"] {
     --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
     --bg-header: rgba(30, 41, 59, 0.85);
     /* Dark translucent */
+}
+
+body[data-theme="dark"] .toast {
+    background: rgba(30, 41, 59, 0.95);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
 }
 
 /* DARK MODE LOGIN */
