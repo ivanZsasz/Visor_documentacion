@@ -27,9 +27,8 @@
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/ivanZsasz/Proyecto-Cortexdocs.git](https://github.com/ivanZsasz/Proyecto-Cortexdocs.git)
+    git clone [https://github.com/ivanZsasz/Proyecto-Cortexdocs.git](https://github.com/ivanZsasz/Visor_documentacion.git)
     ```
-    *(Asegúrate de ajustar la URL si renombras el repositorio).*
 
 2.  **Ejecutar la aplicación:**
     Abrir el archivo `index.html` en un navegador web o ejecutar mediante un servidor local como *Live Server* en VS Code.
